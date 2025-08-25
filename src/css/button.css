@@ -1,0 +1,43 @@
+/* Estilo base do botão */
+.button {
+  font-family: var(--font-family);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text-color);
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Hover comum */
+.button:hover {
+  opacity: 0.9;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Tipos de botão */
+.button.primary {
+  background-color: var(--primary-color);
+}
+
+.button.secondary {
+  background-color: var(--secondary-color);
+}
+
+.button.success {
+  background-color: var(--success-color);
+}
+
+.button.error {
+  background-color: var(--error-color);
+}
+
+.button.info {
+  background-color: var(--info-color);
+}
+
